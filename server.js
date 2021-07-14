@@ -5,12 +5,12 @@ const PORT = process.env.PORT || 3002;
 
 const app = express();
 
-const { notes } = require('./db/db');
+const { notes } = require('./db/db.json');
 
 
 app.get('/api/notes', (req, res) => {
-    res.send("Hellos!");
-})
+    res.json(notes);
+});
 
 
 
