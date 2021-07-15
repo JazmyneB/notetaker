@@ -1,10 +1,14 @@
 {
-    "notes": [
-        {
-            "title": "Test Title",
-            "text": "Test Text"
-        }
-
-    ]
+  "notes": [
+    {
+      "title": "Groceries",
+      "text": "fruit",
+      "id": "1"
+    },
+    {
+      "title": "Test",
+      "text": "testing",
+      "id": "1"
+    }
+  ]
 }
-   
